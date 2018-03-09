@@ -317,3 +317,24 @@ ttoT.addEventListener("transitionend",function () {
         now=next;
     };
 }
+// 右侧固定栏
+
+{
+    $(".fixed ul li.si").mouseenter(function () {
+        $(this).addClass("active");
+        $(this).children().children(".block").animate({left:-47},500);
+    });
+    $(".fixed ul li.si").mouseleave(function () {
+        $(this).removeClass("active");
+        $(this).children().children(".block").animate({left:0},500);
+    });
+    $(".fixed ul li.san").mouseenter(function () {
+        $(this).addClass("active");
+        $(this).children().children(".block1").animate({left:-75},500);
+    });
+    $(".fixed ul li.san").mouseleave(function () {
+        $(this).removeClass("active");
+        $(this).children().children(".block1").animate({left:0},500);
+    });
+
+}

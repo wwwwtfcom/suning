@@ -12,6 +12,131 @@
   url('https://at.alicdn.com/t/font_495407_g1atjg50tap833di.ttf') format('truetype'),
   url('https://at.alicdn.com/t/font_495407_g1atjg50tap833di.svg#iconfont') format('svg');
 }
+.fixed{
+	width: 35px;
+	height: 100%;
+	padding-top: 140px;
+	background: #383838;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 99;
+}
+.fixed li{
+	width:35px;
+	height: 30px;
+	margin-bottom: 10px;
+	z-index: 99999999999;
+}
+.fixed li:nth-child(2){
+	height: 115px;
+}
+.fixed li:nth-child(3){
+	margin-top: 18px;
+}
+.fixed li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+}
+.fixed ul li a .iconfont{
+	font-size: 20px;
+	color: #FFAA00;
+	line-height: 30px;
+}
+.fixed ul li .oone{
+	display: block;
+	width: 29px;
+	height: 35px;
+	padding: 0 3px 5px;
+	text-align: center;
+	border-bottom: 1px solid #4D4D4D;
+	z-index: 10;
+}
+.fixed ul li .ttwo{
+	display: block;
+	width: 29px;
+	height: 115px;
+	font-size: 15px;
+	color: #fff;
+	font-family: '隶书';
+	line-height: 22px;
+	padding: 0 3px 10px;
+	border-bottom: 1px solid #4D4D4D;
+	margin-bottom: 10px;
+}
+.ttwo:hover{
+	background: #FFAA01;
+}
+.ttwo a .iconfont{
+	color: #fff;
+}
+.fixed li.si{
+	width:35px;
+	height: 30px;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 0;
+}
+.fixed li.si a{
+	background: #383838;
+}
+.fixed li.si a:hover{
+	background: #ffaa00;
+}
+.fixed li.si:nth-child(1){
+	margin-top: 10px;
+}
+.fixed li.si.active{
+	z-index: 1000000;
+}
+.fixed li.si .block{
+	width: 47px;
+	height: 30px;
+	font-size: 12px;
+	background-color: #383838;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+	top: 0;
+	color: #FFAA01;
+	z-index: -100000000;
+}
+.fixed li.si.active .block{
+	background: #FFAA01;
+	color: #383838;
+}
+.fixed li.san{
+	display: block;
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.fixed li.san a{
+	background: #383838;
+}
+.fixed li.san .block1{
+	width: 75px;
+	height: 30px;
+	font-size: 12px;
+	background-color: #383838;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+	top: 0;
+	color: #FFAA01;
+	z-index: -100000000;
+}
+.fixed li.san.active .block1{
+	background: #FFAA01;
+	color: #383838;
+}
+.fixed li.san a:hover{
+	background: #FFAA01;
+}
 header{
 	width: 100%;
 	height: 35px;

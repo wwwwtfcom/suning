@@ -102,9 +102,6 @@ imgs.forEach(function(val,index){
 
 
 
-
-
-
  let ttp=document.querySelector(".ng-fix-bar");
  let leftbar=document.querySelector(".cedaohang_box");
 window.onscroll=function () {
